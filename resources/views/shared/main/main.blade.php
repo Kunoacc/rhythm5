@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @include('shared.main.head')
+</head>
+
+<body class="@yield('body-class')">
+    <a id="toc_home" class="sc_anchor" title="Home" data-description="<i>Return to Home</i> - <br>navigate to home page of the site" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
+    <a id="toc_top" class="sc_anchor" title="To Top" data-description="<i>Back to top</i> - <br>scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
+    <!-- Body wrap -->
+    <div class="body_wrap">
+        <!-- Page wrap -->
+        <div class="page_wrap">
+            <div class="top_panel_fixed_wrap"></div>
+
+            @include('shared.main.navbar')
+
+            @yield('content')
+
+        </div>
+    </div>
+
+
+
+    @yield('scripts')
+
+    @include('shared.admin.scripts')
+
+</body>
+</html>
