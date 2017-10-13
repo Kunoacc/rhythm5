@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scheme_original">
 <head>
     @include('shared.main.head')
 </head>
@@ -18,9 +18,10 @@
             @yield('content')
 
         </div>
+
     </div>
 
-
+    <a href="coming-soon.html" class="scroll_to_top icon-up" title="Scroll to top"></a>
 
     @yield('scripts')
 

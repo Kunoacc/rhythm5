@@ -30,4 +30,4 @@
 
     <link rel="icon" href="{{asset('images/favicon.png')}}" />
     <link rel="icon" href="{{asset('images/favicon.png')}}" />
-    <link rel="apple-touch-icon-precomposed" href="images/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="{{asset('images/favicon.png')}}" />
