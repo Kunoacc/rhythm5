@@ -25,7 +25,7 @@
 
     @yield('scripts')
 
-    @include('shared.admin.scripts')
+    @include('shared.main.scripts')
 
 </body>
 </html>
