@@ -15,6 +15,10 @@ class CreateDevotionalsTable extends Migration
     {
         Schema::create('devotionals', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->string('bible-verse');
+            $table->string('reading');
+            $table->string('content');
             $table->timestamps();
         });
     }

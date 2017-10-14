@@ -52,67 +52,6 @@
 
         </div>
         <!-- END REVOLUTION SLIDER -->
-        <!-- Next event section -->
-        <!--<div class="hp1_next_event_section tpl_add_bg">
-            <div class="content_wrap">
-                <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3 margin_bottom_null">
-                    <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
-                        <div class="sc_section margin_left_6_4286">
-                            <div class="sc_section_inner">
-                                <h3 class="sc_title sc_title_regular hp1_event_title_1 tpl_light">Camp Meeting 2017:</h3>
-                                <h6 class="sc_title sc_title_regular tpl_light font_weight_400">Start registering today</h6>
-                            </div>
-                        </div>
-                    </div><div class="column-1_3 sc_column_item sc_column_item_2 even">
-                        <div id="sc_countdown_1" class="sc_countdown sc_countdown_style_1 aligncenter margin_top_null" data-date="2017-07-27" data-time="12:00:00">
-                            <div class="sc_countdown_inner">
-                                <div class="sc_countdown_item sc_countdown_days">
-                                    <span class="sc_countdown_digits">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </span>
-                                    <span class="sc_countdown_label">Days</span>
-                                </div>
-                                <div class="sc_countdown_separator">:</div>
-                                <div class="sc_countdown_item sc_countdown_hours">
-                                    <span class="sc_countdown_digits">
-                                        <span></span>
-                                        <span></span>
-                                    </span>
-                                    <span class="sc_countdown_label">Hours</span>
-                                </div>
-                                <div class="sc_countdown_separator">:</div>
-                                <div class="sc_countdown_item sc_countdown_minutes">
-                                    <span class="sc_countdown_digits">
-                                        <span></span>
-                                        <span></span>
-                                    </span>
-                                    <span class="sc_countdown_label">Minutes</span>
-                                </div>
-                                <div class="sc_countdown_separator">:</div>
-                                <div class="sc_countdown_item sc_countdown_seconds">
-                                    <span class="sc_countdown_digits">
-                                        <span></span>
-                                        <span></span>
-                                    </span>
-                                    <span class="sc_countdown_label">Seconds</span>
-                                </div>
-                                <div class="sc_countdown_placeholder hide"></div>
-                            </div>
-                        </div>
-                    </div><div class="column-1_3 sc_column_item sc_column_item_3 odd">
-                        <div class="sc_section aligncenter margin_top_null">
-                            <div class="sc_section_inner">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSev47mv_-lmRZRcALOoviTbvV0-CsNi9ycebWIfq6YBvGLJBQ/viewform?usp=sf_link" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large">REGISTER</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>-->
-        <!-- /Next event section -->
     </section>
     <!-- /Revolution Slider section -->
     <!-- Page Content Wrap -->
@@ -259,10 +198,10 @@
                     <div class="hp2_news_section">
                         <div class="content_wrap">
                             <div class="columns_wrap column_resizer-4">
-                                <!-- Latest sermons block -->
+                                <!-- Latest devotional block -->
                                 <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
                                     <div class="sc_blogger layout_colored_1 template_portfolio sc_blogger_vertical no_description">
-                                        <h2 class="sc_blogger_title sc_item_title">Latest Sermons</h2>
+                                        <h2 class="sc_blogger_title sc_item_title">Latest Devotionals</h2>
                                         <div class="isotope_wrap" data-columns="1">
                                             <!-- Isotope item -->
                                             <div class="isotope_item isotope_item_colored isotope_item_colored_1 isotope_column_1">
