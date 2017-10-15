@@ -13,3 +13,4 @@
 
 <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 <script src="{{asset('js/light-bootstrap-dashboard.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>

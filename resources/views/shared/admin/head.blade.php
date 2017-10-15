@@ -23,3 +23,4 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.css" />
 <link href="{{asset('css/pe-icon-7-stroke.css')}}" rel="stylesheet" />
+<link rel="stylesheet" href="{{asset('css/custom-style.css')}}" />
