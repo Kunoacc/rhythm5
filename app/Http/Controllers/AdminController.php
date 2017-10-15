@@ -13,9 +13,9 @@ class AdminController extends Controller
 
     public function login(){
             if(auth()->attempt(request(['email', 'password']))){
-                return redirect()->route('adminHome');
+                return 'success';
             }
-            return redirect(route('adminLogin'))->with('error', 'Incorrect Credentials');
+            return 'incorrect credentials';
     }
 
     public function logout(){

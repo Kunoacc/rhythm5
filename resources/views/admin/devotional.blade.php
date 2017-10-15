@@ -18,6 +18,12 @@
                        </div>
                        <div class="content">
                            <form action="">
+                               <div class="form-group">
+                                   <label for="Title" class="col-sm-2 control-label">Title</label>
+                                   <div class="col-sm-10">
+                                       <input type="text" class="form-control" id="title" name="title" placeholder="Title">
+                                   </div>
+                               </div>
 
                            </form>
                        </div>

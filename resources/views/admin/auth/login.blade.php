@@ -89,14 +89,24 @@
                         $('#login').html('<i class="now-ui-icons loader_refresh spin"></i>');
                         $('#login').addClass('disabled');
                     },
-                    success: () => {
-                        $('#login').html('Success!');
-                        new Noty({
-                            type: 'success',
-                            text: 'logged in successfully, redirecting...',
-                            timeout: 2000
-                        }).show();
-                        setTimeout(() => window.location.href = '{{route('adminHome')}}', 3000);
+                    success: (data) => {
+                       if (data === 'success'){
+                           $('#login').html('Success!');
+                           new Noty({
+                               type: 'success',
+                               text: 'logged in successfully, redirecting...',
+                               timeout: 2000
+                           }).show();
+                           setTimeout(() => window.location.href = '{{route('adminHome')}}', 3000);
+                       } else {
+                           new Noty({
+                               type: 'error',
+                               text: 'Incorrect Credentials',
+                               timeout: 2000
+                           }).show();
+                           $('#login').html('Login');
+                           $('#login').removeClass('disabled');
+                       }
                     },
                     error: () => {
                         new Noty({
