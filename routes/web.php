@@ -12,10 +12,11 @@
 */
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'PagesController@index')->name('index');
-Route::get('/contact', 'PagesController@contact')->name('contact');
-Route::get('/about', 'PagesController@about')->name('about');
-Route::get('/devotional', 'PagesController@devotional')->name('devotional');
+Route::view('/', 'index')->name('index');
+Route::view('/contact', 'contact')->name('contact');
+Route::view('/about', 'about')->name('about');
+Route::view('/donate', 'donate')->name('donation');
+Route::view('/devotional', 'devotionals')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
 Route::post('/logout', 'AdminController@logout')->name('logout')->middleware('auth');
 
