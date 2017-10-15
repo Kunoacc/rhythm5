@@ -30,6 +30,7 @@
                     </div>
                 </div>
                 <div class="post_content clearfix">
+                    <h3 class="post_title">TODAY'S DEVOTIONAL</h3>
                     <h4 class="post_title">
                         <a href="sermons-single.html">Good Friday &#038; Easter Sunday</a>
                     </h4>
