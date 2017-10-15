@@ -8,15 +8,18 @@ class AdminController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
-        $this->middleware('guest')->only('login');
+        $this->middleware('auth')->except('login');
     }
 
-    public function login(Request $request){
-            if(auth()->attempt([$request->input('email'), $request->input('password')])){
+    public function login(){
+            if(auth()->attempt(request(['email', 'password']))){
                 return redirect()->route('adminHome');
             }
             return redirect(route('adminLogin'))->with('error', 'Incorrect Credentials');
+    }
+
+    public function logout(){
+        auth()->logout();
     }
     //
 }

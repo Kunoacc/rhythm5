@@ -17,10 +17,13 @@ Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/devotional', 'PagesController@devotional')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
+Route::post('/logout', 'AdminController@logout')->name('logout')->middleware('auth');
 
 Route::group(['prefix' => 'admin'], function (){
-    Route::view('/login', 'admin.auth.login')->name('adminLogin')->middleware('guest');
-    Route::post('/login', 'AdminController@login')->name('login');
+    Route::group(['middleware' => 'guest'], function (){
+        Route::view('/login', 'admin.auth.login')->name('adminLogin');
+        Route::post('/login', 'AdminController@login')->name('login');
+    });
     Route::group(['middleware' => 'auth'], function (){
         Route::view('/home', 'admin.index')->name('adminHome');
         Route::view('/blog', 'admin.blog')->name('adminBlog');
