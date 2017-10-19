@@ -81,7 +81,41 @@
                </div>
                <div class="col-md-offset-1 col-sm-10 col-md-8">
                    <div class="card">
-                       abcde
+                       <div class="header">
+                           <h4 class="title">Devotionals</h4>
+                           <hr>
+                       </div>
+                       <div class="content">
+                           @php($devotional = \App\Devotional::paginate(10))
+                           @if(\App\Devotional::all()->isNotEmpty())
+                               <table class="table table-hover">
+                                   <thead>
+                                   <tr>
+                                       <th>Title</th>
+                                       <th>Author</th>
+                                       <th>Date</th>
+                                       <th></th>
+                                   </tr>
+                                   </thead>
+                                   <tbody>
+                                   @foreach($devotional as $item)
+                                       <tr>
+                                           <td>{{$item->title}}</td>
+                                           <td>{{$item->author}}</td>
+                                           <td>{{$item->date}}</td>
+                                           <td>
+                                               <button type="submit" class="btn btn-danger btn-fill" id="delete" onclick="deleteDay('{{$item->id}}')"><i class="pe-7s-trash"></i></button>
+                                           </td>
+                                       </tr>
+                                   @endforeach
+                                   </tbody>
+                               </table>
+                           @else
+                               <h4 class="text-uppercase text-center">
+                                   No devotionals have been added
+                               </h4>
+                           @endif
+                       </div>
                    </div>
                </div>
            </div>
@@ -94,6 +128,46 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/i18n/datepicker.en.min.js"></script>
 <script>
+
+    function deleteDay(id) {
+        let data = id;
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then(() => {
+            swal(
+                'Processing',
+                'please wait...',
+                'info'
+            );
+            swal.showLoading();
+            $.ajax({
+                type: 'post',
+                url: '{{route('removeDevotional')}}',
+                data: {
+                    '_token': '{{csrf_token()}}',
+                    'id': data
+                },
+                success: (data) => {
+                    if (data === 'success'){
+                        swal.close();
+                        swal(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success'
+                        ).then(() => {
+                            setTimeout(() => window.location.reload(true), 1000);
+                        })
+                    }
+                }
+            });
+        })
+    }
     $(document).ready(() => {
         $('#date').datepicker();
         var quill = new Quill('#editor', {

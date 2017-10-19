@@ -39,7 +39,7 @@ class AdminController extends Controller
 
     }
 
-    public function deleteDevotional(Request $request){
+    public function removeDevotional(Request $request){
         $id = $request->input('id');
         $delete_candidate = Devotional::find($id);
         $delete_candidate->delete();
