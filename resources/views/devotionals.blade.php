@@ -22,133 +22,98 @@
         <div class="content_wrap">
             <!-- Content -->
             <article class="post_item post_item_sermons odd sermons">
-                <div class="post_featured">
-                    <div class="post_thumb" data-title="Good Friday &#038; Easter Sunday">
-                        <a class="hover_icon hover_icon_link" href="sermons-single.html">
-                            <img alt="" src="images/sermons2-370x288.jpg">
-                        </a>
-                    </div>
-                </div>
-                <div class="post_content clearfix">
-                    <h3 class="post_title">TODAY'S DEVOTIONAL</h3>
-                    <h4 class="post_title">
-                        <a href="sermons-single.html">Good Friday &#038; Easter Sunday</a>
-                    </h4>
-                    <div class="post_descr">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="post_info">
-                            <span class="post_info_item post_info_posted_by">by Jane Doe</span>
-                            <span class="post_info_item">
-                                                <span class="post_info_date">Friday, July 31, 2016</span>
-                                            </span>
-                        </div>
-                        <div class="post_custom_fields">
-                                            <span class="post-custom_field-key">
-                                                <a href="https://drive.google.com/" download class="custom_field_link">
-                                                    <span class="icon-iconmonstr-download-11-icon"></span>
-                                                </a>
-                                            </span>
-                            <span class="post-custom_field-key">
-                                                <a href="media/AxiomthemesblankPDF.pdf" download class="custom_field_link">
-                                                    <span class="icon-iconmonstr-pdf-file-2-icon"></span>
-                                                </a>
-                                            </span>
-                            <span class="post-custom_field-key">
-                                                <a href="#popup-video-1" class="sc_popup_link custom_field_link">
-                                                    <span class="icon-iconmonstr-video-camera-icon"></span>
-                                                </a>
-                                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Popup video -->
-                <div id="popup-video-1" class="sc_popup mfp-with-anim mfp-hide popup-video ">
-                    <div class="sc_video_player">
-                        <div class="sc_video_frame sc_video_play_button hover_icon hover_icon_play width_100_per" data-width="100%" data-height="433" data-video="&lt;iframe class=&quot;video_frame&quot; src=_https_/player.vimeo.com/video/347676135782.html?autoplay=1%22 width=&quot;100%&quot; height=&quot;433&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;">
-                            <img alt="" src="images/sermons2.jpg">
-                        </div>
-                    </div>
-                </div>
-                <!-- /Popup video -->
-            </article>
-
-            <div class="content">
-                <!-- Sermons item -->
-
-                <!-- /Sermons item -->
-                <!-- Sermons item -->
-                <article class="post_item post_item_sermons even sermons">
+                @php
+                $date = date('Y-m-d');
+                $devotional_today = \App\Devotional::where('date', $date)->first();
+                @endphp
+                @if($devotional_today)
+                    @php
+                    $devotional_date = strtotime($devotional_today->date);
+                    $devotional_date = date('l, jS F, Y', $devotional_date)
+                    @endphp
                     <div class="post_featured">
-                        <div class="post_thumb" data-title="Persevere: The Book of James">
-                            <a class="hover_icon hover_icon_link" href="sermons-single.html">
-                                <img alt="" src="images/kamboo-370x288.jpg">
+                        <div class="post_thumb" data-title="{{$devotional_today->title}}">
+                            <a class="hover_icon hover_icon_link" href="{{route('devotionalDays', $devotional_today->date)}}">
+                                <img alt="" src="{{asset('images/sermons2-370x288.jpg')}}">
                             </a>
                         </div>
                     </div>
                     <div class="post_content clearfix">
+                        <h3 class="post_title">TODAY'S DEVOTIONAL</h3>
                         <h4 class="post_title">
-                            <a href="sermons-single.html">Persevere: The Book of James</a>
+                            <a href="{{route('devotionalDays', $devotional_today->date)}}">{{$devotional_today->title}}</a>
                         </h4>
                         <div class="post_descr">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                            @if(strlen(utf8_decode($devotional_today->content)) < 10)
+                                <p>{{$devotional_today->content}}</p>
+                            @else
+                                <p>{{substr($devotional_today->content, 0, 300)}}...(click title to view more)</p>
+                            @endif
                             <div class="post_info">
-                                <span class="post_info_item post_info_posted_by">by Jane Doe</span>
-                                <span class="post_info_item post_info_posted">
-                                                <span class="post_info_date">Tuesday, September 1, 2016</span>
-                                            </span>
-                            </div>
-                            <div class="post_custom_fields">
-                                            <span class="post-custom_field-key">
-                                                <a href="https://drive.google.com/" download class="custom_field_link">
-                                                    <span class="icon-iconmonstr-download-11-icon"></span>
-                                                </a>
-                                            </span>
-                                <span class="post-custom_field-key">
-                                                <a href="media/AxiomthemesblankPDF.pdf" download class="custom_field_link">
-                                                    <span class="icon-iconmonstr-pdf-file-2-icon"></span>
-                                                </a>
-                                            </span>
-                                <span class="post-custom_field-key">
-                                                <a href="#popup-video-2" class="sc_popup_link custom_field_link">
-                                                    <span class="icon-iconmonstr-video-camera-icon"></span>
-                                                </a>
-                                            </span>
-                                <span class="post-custom_field-key">
-                                                <a href="#popup-audio-2" class="sc_popup_link custom_field_link">
-                                                    <span class="icon-music"></span>
-                                                </a>
-                                            </span>
+                                <span class="post_info_item post_info_posted_by">by {{$devotional_today->author}}</span>
+                                <span class="post_info_item">
+                                    <span class="post_info_date">{{$devotional_date}}</span>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <!-- Popup audio -->
-                    <div id="popup-audio-2" class="sc_popup mfp-with-anim mfp-hide popup-audio ">
-                        <div class="sc_audio_player sc_audio" data-width="" data-height="">
-                            <div class="sc_audio_container">
-                                <audio class="sc_audio" src="media/Dream-Music-Relax.mp3"></audio>
-                            </div>
+                @else
+                    <div class="post_featured">
+                        <div class="post_thumb" data-title="Good Friday &#038; Easter Sunday">
+                            <a class="hover_icon hover_icon_link" href="javascript:">
+                                <img alt="" src="images/sermons2-370x288.jpg">
+                            </a>
                         </div>
                     </div>
-                    <!-- /Popup audio -->
-                    <!-- Popup video -->
-                    <div id="popup-video-2" class="sc_popup mfp-with-anim mfp-hide popup-video ">
-                        <div class="sc_video_player">
-                            <div class="sc_video_frame sc_video_play_button hover_icon hover_icon_play width_100_per" data-width="100%" data-height="433" data-video="&lt;iframe class=&quot;video_frame&quot; src=_https_/player.vimeo.com/video/347676135782.html?autoplay=1%22 width=&quot;100%&quot; height=&quot;433&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;">
-                                <img alt="" src="images/kamboo.jpg">
-                            </div>
-                        </div>
+                    <div class="post_content clearfix">
+                        <h3 class="post_title">TODAY'S DEVOTIONAL IS UNAVAILABLE</h3>
                     </div>
-                    <!-- /Popup video -->
-                </article>
-                <!-- /Sermons item -->
+                @endif
 
-                <nav id="pagination" class="pagination_wrap pagination_pages">
-                    <span class="pager_current active ">1</span>
-                    <a href="#" class="">2</a>
-                    <a href="#" class="">3</a>
-                    <a href="#" class="pager_next "></a>
-                    <a href="#" class="pager_last "></a>
-                </nav>
+            </article>
+
+            <div class="content">
+                @php
+                $other_devotionals = \App\Devotional::where('date', '<>', date('Y-m-d'))->paginate(5)
+                @endphp
+                @if(count($other_devotionals))
+                    @foreach($other_devotionals as $item)
+                        @php
+                            $devotional_date = strtotime($item->date);
+                            $devotional_date = date('l, jS F, Y', $devotional_date)
+                        @endphp
+                        <article class="post_item post_item_sermons even sermons">
+                            <div class="post_featured">
+                                <div class="post_thumb" data-title="{{$item->title}}">
+                                    <a class="hover_icon hover_icon_link" href="{{route('devotionalDays', $item->date)}}">
+                                        <img alt="" src="images/kamboo-370x288.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="post_content clearfix">
+                                <h4 class="post_title">
+                                    <a href="{{route('devotionalDays', $item->date)}}">{{$item->title}}</a>
+                                </h4>
+                                <div class="post_descr">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                    <div class="post_info">
+                                        <span class="post_info_item post_info_posted_by">by {{$item->author}}</span>
+                                        <span class="post_info_item post_info_posted">
+                                            <span class="post_info_date">{{$devotional_date}}</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    @endforeach
+                @else
+                    <article class="post_item post_item_sermons even sermons">
+                        <h2 class="post_title" style="padding-top: 50px; padding-bottom: 50px; padding-left: 10px">
+                            NO OTHER DEVOTIONAL CONTENT AVAILABLE
+                        </h2>
+                    </article>
+                @endif
+                <!-- /Sermons item -->
             </div>
             <!-- /Content -->
             <!-- Sidebar -->

@@ -32,5 +32,7 @@ Route::group(['prefix' => 'admin'], function (){
         Route::view('/donations', 'admin.donations')->name('adminDonations');
         Route::view('/events', 'admin.events')->name('adminEvents');
         Route::view('/settings', 'admin.settings')->name('adminSettings');
+        Route::post('/devotional/add', 'AdminController@addDevotional')->name('addDevotional');
+        Route::post('/devotional/remove', 'AdminController@removeDevotional')->name('removeDevotional');
     });
 });

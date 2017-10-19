@@ -18,7 +18,8 @@ class CreateDevotionalsTable extends Migration
             $table->string('title');
             $table->string('bible-verse');
             $table->string('reading');
-            $table->string('content');
+            $table->longText('content');
+            $table->string('author');
             $table->timestamp('date');
             $table->timestamps();
         });
