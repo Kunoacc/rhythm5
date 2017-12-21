@@ -21,7 +21,7 @@ Route::get(/**
  * @return void
  */
     '/donate/success', function (\Illuminate\Http\Request $request) {
-    return dd($request->all());
+    return response($request->all());
 });
 Route::view('/devotional', 'devotionals')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
