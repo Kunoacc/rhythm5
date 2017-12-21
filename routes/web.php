@@ -16,6 +16,13 @@ Route::view('/', 'index')->name('index');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/donate', 'donate')->name('donation');
+Route::get(/**
+ * @param \Illuminate\Http\Request $request
+ * @return void
+ */
+    '/donate/success', function (\Illuminate\Http\Request $request) {
+    return dd($request->all());
+});
 Route::view('/devotional', 'devotionals')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
 Route::post('/logout', 'AdminController@logout')->name('logout')->middleware('auth');

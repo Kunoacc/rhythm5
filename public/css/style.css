@@ -6476,7 +6476,7 @@ body .booked-modal .booked-form{
 
 /* Banner 2 Section */
 .hp2_banner2_section{
-	background-color: #fdaa49;
+	background-color: #e80520;
 	padding-top: 4em;
 	padding-bottom: 3.25em;
 }
@@ -6495,6 +6495,7 @@ body .booked-modal .booked-form{
 	background-color:#1dc6df;
 	background-image:url(../images/home2_blueimg1.jpg);
 	background-repeat:repeat;
+	height: 400px;
 }
 .hp2_sunday_gatherings_block .sc_title{
 	text-align:center;
@@ -6632,7 +6633,7 @@ body .booked-modal .booked-form{
 
 /*** About Us Page ***/
 .greeting_section_bg{
-	background: url(../images/man_glasses.jpg);
+	background: url(../images/pastor.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -6671,4 +6672,61 @@ body .booked-modal .booked-form{
 }
 
 /*** Post Audio ***/
-.post_audio_bg{background-image: url(../images/audio_bg.png);}
+.post_audio_bg{background-image: url(../images/audio_bg.png);
+
+}
+
+.cardFooter .footerBtn{
+	color: white;
+	font-weight: 700;
+}
+
+.cardFooter{
+	background-color: #1DC6DF;
+	text-align: center;
+    vertical-align: middle;
+    height: 60px;
+    line-height: 60px;	
+
+}
+
+.rcardFooter .footerIcon{
+	height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.rcardFooter .rfooterBtn{
+	color: white;
+	font-weight: 700;
+	padding-right: 40px;
+}
+
+.rcardFooter{
+	background-color: #e80520;
+	text-align: center;
+    vertical-align: middle;
+    height: 60px;
+    line-height: 60px;	
+
+}
+
+#focus #hova {
+	text-align: center; 
+	background-color:white; 
+	padding: 15px; 
+	height:500px;	 
+}
+
+#focus{
+	background-color: white;
+	
+}
+
+#focus #hova:hover{
+
+		 box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
