@@ -34,7 +34,7 @@
                       });
                   </script>-->
 
-        <iframe src="https://paystack.com/pay/rhythm5" width="100%" height="auto"></iframe>
+        <iframe src="https://paystack.com/pay/rhythm" width="100%" height="auto"></iframe>
 
         <!-- Footer -->
         <footer class="footer_wrap widget_area scheme_original">
