@@ -16,21 +16,7 @@ Route::view('/', 'index')->name('index');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/donate', 'donate')->name('donation');
-Route::get('/donate/success', function (\Illuminate\Http\Request $request) {
-    $paystack = new \Yabacon\Paystack("sk_test_4a6e12ea908c14ffdc61e8417ab32fab9ba54060");
-    $response = $paystack->transaction->verify(["reference" => $request->input('reference')]);
-    if ($response->data->status === "success"){
-        $data = $response->data;
-        $customer = $data->customer;
-        $donation = new \App\Donations();
-        $donation->reference = $data->reference;
-        $donation->amount = $data->amount;
-        $donation->name = $customer->first_name . " " . $customer->last_name;
-        $donation->email = $customer->email;
-        $donation->save();
-        return redirect()->route('index');
-    }
-});
+Route::get('/donate/success', 'MainController@donate');
 Route::view('/devotional', 'devotionals')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
 Route::post('/logout', 'AdminController@logout')->name('logout')->middleware('auth');

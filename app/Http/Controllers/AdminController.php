@@ -9,11 +9,12 @@ class AdminController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except('login');
     }
 
-    public function login(){
-            if(auth()->attempt(request(['email', 'password']))){
+    public function login(Request $request){
+        $email = $request->input('email');
+        $password = $request->input('password');
+            if(auth()->attempt(['email' => $email, 'password' => $password])){
                 return 'success';
             }
             return 'incorrect credentials';
