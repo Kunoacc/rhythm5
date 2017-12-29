@@ -1,5 +1,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.jsjs/jquery/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.min.js"></script>
 
 <script type="text/javascript" src="{{asset('js/vendor/photostack/modernizr.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/_main.min.js')}}"></script>
@@ -33,3 +34,12 @@
 <script type="text/javascript" src="{{asset('js/vendor/swiper/swiper.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/vendor/isotope/dist/isotope.pkgd.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery/ui/accordion.min.js')}}"></script>
+
+<script>
+    @if($message = session()->get("success"))
+        swal($message, 'Your donation has been processed successfully 😀', 'success');
+    @endif
+    @if($message = session()->get("error"))
+        swal($message, 'There was an error processing yur donation 😢', 'error');
+    @endif
+</script>

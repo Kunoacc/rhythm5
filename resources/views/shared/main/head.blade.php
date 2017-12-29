@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="{{asset('css/core.messages.min.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css" media="all" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.min.css" />
     <link rel="icon" href="{{asset('images/favicon.png')}}" />
     <link rel="icon" href="{{asset('images/favicon.png')}}" />
     <link rel="apple-touch-icon-precomposed" href="{{asset('images/favicon.png')}}" />

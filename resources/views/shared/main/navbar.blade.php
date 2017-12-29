@@ -257,7 +257,7 @@
                     <!-- /Resources -->
                     <!-- Blog -->
                     <li class="menu-item">
-                        <a href="{{route("blog")}}">Blog</a>
+                        <a href="{{url("blog")}}">Blog</a>
                     </li>
                     <!-- /Blog -->
                     <!-- Give -->
