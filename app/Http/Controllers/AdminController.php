@@ -4,20 +4,24 @@ namespace App\Http\Controllers;
 
 use App\Devotional;
 use Illuminate\Http\Request;
+use Mockery\Exception;
 
 class AdminController extends Controller
 {
     public function __construct()
     {
+        $this->middleware('auth')->except('login');
     }
 
     public function login(Request $request){
         $email = $request->input('email');
         $password = $request->input('password');
-            if(auth()->attempt(['email' => $email, 'password' => $password])){
-                return 'success';
+            try {
+                auth()->attempt(['email' => $email, 'password' => $password]);
+                return redirect()->route('adminHome');
+            } catch (Exception $exception) {
+                return "error";
             }
-            return 'incorrect credentials';
     }
 
     public function logout(){

@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/now-ui-kit.css?v=1.1.0')}}" rel="stylesheet" />
+    <link href="<?php echo e(asset('css/bootstrap.min.css')); ?>" rel="stylesheet" />
+    <link href="<?php echo e(asset('css/now-ui-kit.css?v=1.1.0')); ?>" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.css" />
 </head>
 
@@ -22,8 +22,9 @@
     <div class="container">
         <div class="col-md-4 content-center">
             <div class="card card-login card-plain">
-                <form class="form" method="post" action="{{route('login')}}" id="loginForm">
-                    {{csrf_field()}}
+                <form class="form" method="post" action="<?php echo e(route('login')); ?>" id="loginForm">
+                    <?php echo e(csrf_field()); ?>
+
                     <div class="header header-primary text-center">
                         <div class="container">
                             <h4 class="text-uppercase">admin login</h4>
@@ -53,17 +54,17 @@
 </div>
 </body>
 <!--   Core JS Files   -->
-<script src="{{asset('js/core/jquery.3.2.1.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/core/popper.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/core/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/core/jquery.3.2.1.min.js')); ?>" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/core/popper.min.js')); ?>" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/core/bootstrap.min.js')); ?>" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="{{asset('js/plugins/bootstrap-switch.js')}}"></script>
+<script src="<?php echo e(asset('js/plugins/bootstrap-switch.js')); ?>"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="{{asset('js/plugins/nouislider.min.js')}}" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/plugins/nouislider.min.js')); ?>" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="{{asset('js/plugins/bootstrap-datepicker.js')}}" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/plugins/bootstrap-datepicker.js')); ?>" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="{{asset('js/now-ui-kit.js?v=1.1.0')}}" type="text/javascript"></script>
+<script src="<?php echo e(asset('js/now-ui-kit.js?v=1.1.0')); ?>" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.js"></script>
 
 <script>
@@ -78,58 +79,58 @@
                 }).show();
             } else {
                 $('#loginForm').submit();
-                {{--$.ajax({--}}
-                    {{--type: 'POST',--}}
-                    {{--url: '{{route('login')}}',--}}
-                    {{--data: {--}}
-                        {{--'_token': '{{csrf_token()}}',--}}
-                        {{--'username': $('#email').val(),--}}
-                        {{--'password': $('#password').val()--}}
-                    {{--},--}}
-                    {{--beforeSend: () => {--}}
-                        {{--$('#login').html('<i class="now-ui-icons loader_refresh spin"></i>');--}}
-                        {{--$('#login').addClass('disabled');--}}
-                    {{--},--}}
-                    {{--success: (data) => {--}}
-                        {{--console.log(data);--}}
-                       {{--if (data === 'success'){--}}
-                           {{--$('#login').html('Success!');--}}
-                           {{--new Noty({--}}
-                               {{--type: 'success',--}}
-                               {{--text: 'logged in successfully, redirecting...',--}}
-                               {{--timeout: 2000--}}
-                           {{--}).show();--}}
-                           {{--setTimeout(() => window.location.href = '{{route('adminHome')}}', 3000);--}}
-                       {{--} else {--}}
-                           {{--new Noty({--}}
-                               {{--type: 'error',--}}
-                               {{--text: 'Incorrect Credentials',--}}
-                               {{--timeout: 2000--}}
-                           {{--}).show();--}}
-                           {{--$('#login').html('Login');--}}
-                           {{--$('#login').removeClass('disabled');--}}
-                       {{--}--}}
-                    {{--},--}}
-                    {{--error: () => {--}}
-                        {{--new Noty({--}}
-                            {{--type: 'error',--}}
-                            {{--text: 'whoops... something went wrong',--}}
-                            {{--timeout: 2000--}}
-                        {{--}).show();--}}
-                        {{--$('#login').html('Login');--}}
-                        {{--$('#login').removeClass('disabled');--}}
-                    {{--}--}}
-                {{--})--}}
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                    
+                    
+                        
+                        
+                    
+                    
+                        
+                       
+                           
+                           
+                               
+                               
+                               
+                           
+                           
+                       
+                           
+                               
+                               
+                               
+                           
+                           
+                           
+                       
+                    
+                    
+                        
+                            
+                            
+                            
+                        
+                        
+                        
+                    
+                
             }
         });
 
-        @if($message = session('error'))
+        <?php if($message = session('error')): ?>
         new Noty({
             type: 'error',
-            text: '{{$message}}',
+            text: '<?php echo e($message); ?>',
             timeout: 2000
         }).show();
-        @endif
+        <?php endif; ?>
     });
 </script>
 
