@@ -3,6 +3,7 @@
 @section('title', 'Events')
 
 @section('content')
+
 @endsection
 
 @section('scripts')
