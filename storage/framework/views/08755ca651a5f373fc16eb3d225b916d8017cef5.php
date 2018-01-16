@@ -257,7 +257,7 @@
                     <!-- /Resources -->
                     <!-- Blog -->
                     <li class="menu-item">
-                        <a href="<?php echo e(url("blog")); ?>">Blog</a>
+                        <a href="<?php echo e(route("blog")); ?>">Blog</a>
                     </li>
                     <!-- /Blog -->
                     <!-- Give -->

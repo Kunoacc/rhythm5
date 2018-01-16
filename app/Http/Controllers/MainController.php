@@ -24,7 +24,7 @@ class MainController extends Controller
             $donation->name = $customer->first_name . " " . $customer->last_name;
             $donation->email = $customer->email;
             $donation->save();
-            dd($donation);
+            return redirect()->route('donation')->with('success', 'congratulations on your donation');
         }
 
      return redirect()->route('donation')->with('error', 'Whoops');
