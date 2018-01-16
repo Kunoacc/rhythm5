@@ -209,7 +209,7 @@
         <!-- END REVOLUTION SLIDER -->
     </section>
     <!-- Next event section -->
-    <div class="hp1_next_event_section tpl_add_bg">
+    <!-- <div class="hp1_next_event_section tpl_add_bg">
         <div class="content_wrap">
             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3 margin_bottom_null">
                 <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
@@ -271,7 +271,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
+    </div> -->
     <!-- /Next event section -->
     </section>
     <!-- /Revolution Slider section -->
@@ -298,659 +298,309 @@
                     <div class="sc_section aligncenter hp2_banner_section">
                         <div class="sc_section_inner">
                             <div class="content_wrap">
-                                <h3>
-                                    We invite anyone and everyone to attend our Sunday Gatherings Sundays at 7am-8:30am
-                                    and 9am-11:30am
-                                    | RosyArts Theatre, beside Kilimanjaro ikenegbu, Owerri Imo State Nigeria and
-                                    D'Simeons fastfood, ikenegbu, Owerri, Imo State on Thursdays
-                                </h3>
+                            <h3>
+                                We invite anyone and everyone to attend our Gatherings 
+                            </h3>
+                            <p style="border-left: 2px solid #e80520; text-align: left; padding-left:30px">Sundays at 7am-8:30am and 9am-11:30am
+                                | RosyArts Theatre, beside Kilimanjaro ikenegbu, Owerri Imo State Nigeria</p>
+                                <p style="border-left: 2px solid #e80520; text-align: left; padding-left:30px"> D'Simeons fastfood, ikenegbu, Owerri, Imo State on Thursdays </p>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <!-- /Banner -->
 
 
+
                     <!-- Info section-->
                     <div class="hp2_info_section">
-                        <div class="content_wrap">
-                            <div class="sc_blogger layout_related_3template_related margin_bottom_large sc_blogger_horizontal no_description">
-                                <div class="columns_wrap">
-                                    <!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_1">
-                                            <div class="post_content">
-                                                <div class="post_featured" style="background-color: #1DC6DF">
-                                                    <div class="post_thumb" data-title="Church Mission">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Church Mission" src="images/sermons.png">
-                                                        </a>
-                                                    </div>
-                                                    <div class="cardFooter">
-                                                        <p class="footerBtn">Sermons</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_2">
-                                            <div class="post_content">
-                                                <div class="post_featured" style="background-color: #1DC6DF">
-                                                    <div class="post_thumb" data-title="Our Community">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Our Community" src="images/testimony.png">
-                                                        </a>
-                                                    </div>
-                                                    <div class="cardFooter">
-                                                        <p class="footerBtn">Testimonies</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_3">
-                                            <div class="post_content">
-                                                <div class="post_featured" style="background-color: #1DC6DF">
-                                                    <div class="post_thumb" data-title="Participate With Us">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Participate With Us" src="images/openbible.png">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="cardFooter">
-                                                        <p class="footerBtn">Devotionals</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Info section-->
-
-
-                    <!-- Info section-->
-                    <div class="hp2_info_section" style="display:none;">
-                        <div class="content_wrap">
-                            <div class="sc_blogger layout_related_3template_related margin_bottom_large sc_blogger_horizontal no_description">
-                                <div class="columns_wrap">
-                                    <!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_1">
-                                            <div class="post_content">
-                                                <div class="post_content_wrap">
-                                                    <h4 class="post_title">
-                                                        <a href="coming-soon.html">Foreign Missions</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="post_featured">
-                                                    <div class="post_thumb" data-title="Church Mission">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Church Mission"
-                                                                 src="images/church-mission-284x160.jpg">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_2">
-                                            <div class="post_content">
-                                                <div class="post_content_wrap">
-                                                    <h4 class="post_title">
-                                                        <a href="coming-soon.html">Campus Ministry</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="post_featured">
-                                                    <div class="post_thumb" data-title="Our Community">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Our Community"
-                                                                 src="images/our-community-284x160.jpg">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
-                                        <div class="post_item post_item_related post_item_3">
-                                            <div class="post_content">
-                                                <div class="post_content_wrap">
-                                                    <h4 class="post_title">
-                                                        <a href="coming-soon.html">Local Churches</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="post_featured">
-                                                    <div class="post_thumb" data-title="Participate With Us">
-                                                        <a class="hover_icon hover_icon_link" href="coming-soon.html">
-                                                            <img alt="Participate With Us"
-                                                                 src="images/participate-with-us-284x160.jpg">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /Post item -->
-                                <div class="sc_blogger_button sc_item_button">
-                                    <a href="coming-soon.html"
-                                       class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ
-                                        MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Info section-->
-                    <!-- Greeting section -->
-                    <div class="greeting_section_bg">
-                        <div class="content_wrap">
-                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 padding_top_6em">
-                                <div class="column-1_2 sc_column_item sc_column_item_1 odd first">
-                                    <h1 class="sc_title sc_title_regular margin_top_null margin_bottom_0_5em"
-                                        style="color: #ffffff">"Our heart &amp; soul is to connect people with the
-                                        living &amp; powerful God."</h1>
-                                    <div class="sc_section font_size_1_7143em line_height_1_3em font_weight_700">
-                                        <div class="sc_section_inner">
-                                            <p class="margin_bottom_null tpl_dark" style="color: #ffffff"
-                                            <p>Jason Obie</p>
-                                        </div>
-                                    </div>
-                                    <div class="sc_section margin_bottom_large font_weight_700">
-                                        <div class="sc_section_inner">
-                                            <p class="accent1 margin_bottom_small">Lead Pastor of Rhythm 5
-                                                Fellowship</p>
-                                            <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                                                <div class="sc_socials_item">
-                                                    <a href="coming-soon.html" target="_blank"
-                                                       class="social_icons social_twitter">
-                                                        <span class="icon-twitter"></span>
+                    <div class="content_wrap">
+                        <div class="sc_blogger layout_related_3template_related margin_bottom_large sc_blogger_horizontal no_description">
+                            <div class="columns_wrap">
+                                <!-- Post item -->
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="post_item post_item_related post_item_1">
+                                        <div class="post_content">
+                                            <div class="post_featured" style="background-color: #1DC6DF">
+                                                <div class="post_thumb" data-title="Church Mission">
+                                                    <a class="hover_icon hover_icon_link" href="coming-soon.html">
+                                                        <img alt="Church Mission" src="images/sermons.png">
                                                     </a>
                                                 </div>
-                                                <div class="sc_socials_item">
-                                                    <a href="coming-soon.html" target="_blank"
-                                                       class="social_icons social_instagramm">
-                                                        <span class="icon-instagramm"></span>
+                                                <div class="cardFooter">
+                                                <p class="footerBtn">Sermons</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
+                                    <div class="post_item post_item_related post_item_2">
+                                        <div class="post_content">
+                                            <div class="post_featured" style="background-color: #1DC6DF">
+                                                <div class="post_thumb" data-title="Our Community">
+                                                    <a class="hover_icon hover_icon_link" href="coming-soon.html">
+                                                        <img alt="Our Community" src="images/testimony.png">
                                                     </a>
                                                 </div>
-                                                <div class="sc_socials_item">
-                                                    <a href="coming-soon.html" target="_blank"
-                                                       class="social_icons social_facebook">
-                                                        <span class="icon-facebook"></span>
+                                                <div class="cardFooter">
+                                                <p class="footerBtn">Testimonies</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
+                                    <div class="post_item post_item_related post_item_3">
+                                        <div class="post_content">
+                                            <div class="post_featured" style="background-color: #1DC6DF">
+                                                <div class="post_thumb" data-title="Participate With Us">
+                                                    <a class="hover_icon hover_icon_link" href="coming-soon.html">
+                                                        <img alt="Participate With Us" src="images/openbible.png">
                                                     </a>
+                                                </div>
+                                                
+                                                <div class="cardFooter">
+                                                <p class="footerBtn">Devotionals</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="column-1_2 sc_column_item sc_column_item_2 even"></div>
                             </div>
+                        
                         </div>
                     </div>
-                    <!-- /Greeting section -->
-                    <!-- Banner 2 Section -->
-                    <div class="hp2_banner2_section">
-                        <div class="content_wrap">
-                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_6 column_resizer-2">
-                                <div class="column-5_6 sc_column_item sc_column_item_1 odd first span_5">
-                                    <h5 class="sc_title sc_title_regular margin_bottom_null tpl_light">
-                                        Register For Camp Meeting 2017 >>
-                                    </h5>
-                                </div>
-                                <div class="column-1_6 sc_column_item sc_column_item_6 even">
-                                    <a href="coming-soon.html"
-                                       class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large">COMING
-                                        SOON</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Banner 2 Section -->
+                </div>
+                <!-- /Info section-->
 
+
+                     <!-- Banner 2 Section -->
+                     <div class="hp2_banner2_section">
+                     <div class="content_wrap">
+                         <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_6 column_resizer-2">
+                             <div class="column-5_6 sc_column_item sc_column_item_1 odd first span_5">
+                                  <h5 class="sc_title sc_title_regular margin_bottom_null tpl_light">
+                                     Register For Camp Meeting 2017 >> 
+                                  </h5>
+                             </div><div class="column-1_6 sc_column_item sc_column_item_6 even">
+                                 <a href="coming-soon.html" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large">COMING SOON</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- /Banner 2 Section -->
+                                
                     <div style="background-color: #fff; height: 200px; background: url(../images/arena.jpg); background-position: 0 0; background-repeat: no-repeat;"></div>
                     <div style="background-color: #f3f5f8; position: relative;">
-
-                        <div class="content_wrap">
-                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_6 column_resizer-2">
-
-
-                                <div class="column-3_6 sc_column_item sc_column_item_1 odd first span_5"
-                                     style="margin-bottom: 20px; top: -120px; height: 500px;">
-                                    <div style="background-color: #e80520; height:15px;">
-                                    </div>
-                                    <div style="background-color: #ffffff; height: 400px;">
-                                        <h3 style="text-align: center; margin-left: auto;  margin-right: auto; padding-top: 20px;">
-                                            Upcoming Events</h3>
-
-                                        <table style="width:100%">
-                                            <tr style="height: 90px;">
-                                                <th style="width:30%">
-                                                    <div><h3>26</h3></div>
-                                                    <div><h2>Nov</h2></div>
-                                                </th>
-                                                <th style="width:70%; text-align: left">
-                                                    <p> Baptisms </p>
-                                                    <p> All Day </p>
-                                                </th>
-                                            </tr>
+                            
+                    <div class="content_wrap">
+                    <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_6 column_resizer-2">
 
 
-                                        </table>
-
-
-                                    </div>
-                                    <div class="sc_blogger_button sc_item_button"
-                                         style="background-color: white; padding-bottom: 50px">
-                                        <a href="coming-soon.html"
-                                           class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ
-                                            MORE</a>
-                                    </div>
-                                </div>
-                                <div class="column-3_6 sc_column_item sc_column_item_6 even"
-                                     style=" top: -120px; height: 500px;">
-                                    <div style="background-color: #e80520; height:15px;">
-                                    </div>
-                                    <div style="background-color: #ffffff; height: 400px;">
-                                        <h3 style="text-align: center; margin-left: auto;  margin-right: auto; padding-top: 20px;">
-                                            Announcments</h3>
-                                        <table style="width:100%">
-                                            <tr>
-                                                <th style="width:100%; font-weight: normal; text-align: left;">
-                                                    <p style="padding-left: 15px; padding-right: 15px;">
-                                                        Every Sunday we gather to sing songs together, but how do we
-                                                        decide which songs we sing? In this blog, Pastor Donald gives us
-                                                        a sneak peek into the pr... <strong
-                                                                style="color: #e80520; text-decoration: underline;">Keep
-                                                            Reading</strong>
-                                                    </p>
-                                                </th>
-                                            </tr>
-                                            <tr>
-                                                <th style="width:100%; font-weight: normal; text-align: left;">
-                                                    <p style="padding-left: 15px; padding-right: 15px;">
-                                                        Every Sunday we gather to sing songs together, but how do we
-                                                        decide which songs we sing? In this blog, Pastor Donald gives us
-                                                        a sneak peek into the pr... <strong
-                                                                style="color: #e80520; text-decoration: underline;">Keep
-                                                            Reading</strong>
-                                                    </p>
-                                                </th>
-                                            </tr>
-
-
-                                        </table>
-
-                                    </div>
-                                    <div class="sc_blogger_button sc_item_button"
-                                         style="background-color: white; padding-bottom: 50px">
-                                        <a href="coming-soon.html"
-                                           class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ
-                                            MORE</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="column-3_6 sc_column_item sc_column_item_1 odd first span_5" style="margin-bottom: 20px; top: -120px; height: 500px;">
+                        <div style="background-color: #e80520; height:15px;">
                         </div>
+                        <div style="background-color: #ffffff; height: 400px;" >
+                        <h3 style="text-align: center; margin-left: auto;  margin-right: auto; padding-top: 20px;" >Upcoming Events</h3>
+                        
+                        <table style="width:100%">
+                                    <tr style="height: 90px;">
+                                    <th style="width:30%">
+                                        <div><h3>26</h3></div> 
+                                        <div><h2>Nov</h2></div>   
+                                    </th>
+                                    <th style="width:70%; text-align: left">
+                                        <p> Baptisms </p>
+                                        <p>     All Day  </p>   
+                                    </th> 
+                                    </tr> 
 
-                    </div>
+
+                                    
+                        </table>
 
 
-                    <!-- Footer -->
-
-                    <div class="footer_wrap_inner widget_area_inner" id="focus">
-                        <div class="content_wrap">
-                            <div class="columns_wrap">
-
-                                <div class="sc_blogger layout_plain template_plain sc_blogger_horizontal no_description">
-
-                                    <h2 class="sc_blogger_title sc_item_title">Our Focus</h2>
-                                </div>
-                                <!-- Widget: Text -->
-                                <aside class="column-1_4 widget widget_text" id="hova"
-                                       style="text-align: center; background-color:white; padding: 15px; height:500px">
-                                    <div class="focusImage">
-                                        <img alt="" src="images/inchrist.png">
-                                    </div>
-                                    <div class="focusTitle" style="margin-top: 20px; text-align: left;">
-                                        <h5>IN CHRIST-OUR NEW POSITION</h5>
-                                    </div>
-                                    <div class="focusContent" style="text-align: left; padding-bottom: 22px;">
-                                        <p>The phrase in Christ speaks of our new position in Christ. It reveals God’s
-                                            up to date relationship with the believers. </p>
-                                    </div>
-                                    <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large"
-                                       style="background-color: #1DC6DF; border:none;">Discover More</a>
-                                </aside><!-- /Widget: Text --><!-- Widget: Recent Posts -->
-                                <aside class="column-1_4 widget widget_recent_posts" id="hova"
-                                       style="text-align: center; background-color:#F3F5F8; padding: 15px; height:500px">
-                                    <div class="focusImage">
-                                        <img alt="" src="images/1.png">
-                                    </div>
-                                    <div class="focusTitle" style="margin-top: 20px; text-align: left;">
-                                        <h5>INSTITUTE OF FAITH AND FINANCES</h5>
-                                    </div>
-                                    <div class="focusContent" style="text-align: left; padding-bottom: 22px;">
-                                        <p>Some of the greatest challenges of an average believer is living a life of
-                                            faith and abundant supply from God. </p>
-                                    </div>
-                                    <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large"
-                                       style="background-color: #1DC6DF; border:none;">Discover More</a></aside>
-                                <!-- /Widget: Recent Posts --><!-- Widget: Instagram -->
-                                <aside class="column-1_4 widget null-instagram-feed" id="hova"
-                                       style="text-align: center; background-color:white; padding: 15px; height:500px">
-                                    <div class="focusImage">
-                                        <img alt="" src="images/healing.png">
-                                    </div>
-                                    <div class="focusTitle"
-                                         style="margin-top: 20px; text-align: left; padding-bottom: 25px;">
-                                        <h5>HEALING CENTER</h5>
-                                    </div>
-                                    <div class="focusContent" style="text-align: left; padding-bottom: 20px;">
-                                        <p>Healing is a spiritual fact. The lord Jesus while on earth made healing his
-                                            burden and took it as his business.</p>
-                                    </div>
-                                    <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large"
-                                       style="background-color: #1DC6DF; border:none;">Discover More</a></aside>
-                                <!-- /Widget: Instagram --><!-- Widget: Recent Comments -->
-                                <aside class="column-1_4 widget widget_recent_comments" id="hova"
-                                       style="text-align: center; background-color:#F3F5F8; padding: 15px; height:500px">
-                                    <div class="focusImage">
-                                        <img alt="" src="images/spirit.png">
-                                    </div>
-                                    <div class="focusTitle" style="margin-top: 20px; text-align: left;">
-                                        <h5> THE HOLY SPIRIT AND YOU </h5>
-                                    </div>
-                                    <div class="focusContent" style="text-align: left; padding-bottom: 0px;">
-                                        <p> Every born again Christian needs the fullness of the Holy Spirit. The
-                                            baptism of the Holy Spirit is a promise to all believers in God’s word. </p>
-                                    </div>
-                                    <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large"
-                                       style="background-color: #1DC6DF; border:none;">Discover More</a></aside>
-                            </div>
+                        </div>
+                        <div class="sc_blogger_button sc_item_button" style="background-color: white; padding-bottom: 50px">
+                                  <a href="coming-soon.html" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ MORE</a>
+                        </div>
+                        </div><div class="column-3_6 sc_column_item sc_column_item_6 even" style=" top: -120px; height: 500px;">
+                        <div style="background-color: #e80520; height:15px;">
+                        </div>
+                        <div style="background-color: #ffffff; height: 400px;">
+                            <h3 style="text-align: center; margin-left: auto;  margin-right: auto; padding-top: 20px;" >Announcments</h3>
+                            <table style="width:100%">
+                                    <tr>
+                                    <th style="width:100%; font-weight: normal; text-align: left;">
+                                       <p style="padding-left: 15px; padding-right: 15px;">
+                                           Every Sunday we gather to sing songs together, but how do we decide which songs we sing? In this blog, Pastor Donald gives us a sneak peek into the pr... <strong style="color: #e80520; text-decoration: underline;">Keep Reading</strong>
+                                        </p>
+                                    </th>                                                
+                                    </tr> 
+                                    <tr>
+                                    <th style="width:100%; font-weight: normal; text-align: left;">
+                                       <p style="padding-left: 15px; padding-right: 15px;">
+                                           Every Sunday we gather to sing songs together, but how do we decide which songs we sing? In this blog, Pastor Donald gives us a sneak peek into the pr... <strong style="color: #e80520; text-decoration: underline;">Keep Reading</strong>
+                                        </p>
+                                    </th>                                                
+                                    </tr>
+                                     
+                                    
+                                </table>
+                               
+                        </div>
+                        <div class="sc_blogger_button sc_item_button" style="background-color: white; padding-bottom: 50px">
+                                  <a href="coming-soon.html" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ MORE</a>
+                        </div>
                         </div>
                     </div>
-
-                    <!-- /Footer -->
-
-
-                    <!-- News section -->
-                    <div class="hp2_news_section" style="display: none">
-                        <div class="content_wrap">
-                            <div class="columns_wrap column_resizer-4">
-                                <!-- Latest sermons block -->
-                                <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
-                                    <div class="sc_blogger layout_colored_1 template_portfolio sc_blogger_vertical no_description">
-                                        <h2 class="sc_blogger_title sc_item_title">Store</h2>
-                                        <div class="isotope_wrap" data-columns="1">
-                                            <!-- Isotope item -->
-                                            <div class="isotope_item isotope_item_colored isotope_item_colored_1 isotope_column_1">
-                                                <div class="post_item post_item_colored post_item_colored_1 odd">
-                                                    <div class="post_content isotope_item_content">
-                                                        <div class="post_featured img">
-                                                            <a href="coming-soon.html">
-                                                                <img alt="Church Mission"
-                                                                     src="images/church-mission-116x88.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="post_description clearfix">
-                                                            <h5 class="post_title">
-                                                                <a href="coming-soon.html">Church Mission</a>
-                                                            </h5>
-                                                            <div class="post_info">
-                                                                <span class="post_info_item post_info_date">October 27, 2016</span>
-                                                                <span class="post_info_item post_info_counters">0 Comments</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /Isotope item -->
-                                            <!-- Isotope item -->
-                                            <div class="isotope_item isotope_item_colored isotope_item_colored_1 isotope_column_1">
-                                                <div class="post_item post_item_colored post_item_colored_1 even">
-                                                    <div class="post_content isotope_item_content">
-                                                        <div class="post_featured img">
-                                                            <a href="coming-soon.html">
-                                                                <img alt="Our Community"
-                                                                     src="images/our-community-116x88.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="post_description clearfix">
-                                                            <h5 class="post_title">
-                                                                <a href="coming-soon.html">Our Community</a>
-                                                            </h5>
-                                                            <div class="post_info">
-                                                                <span class="post_info_item post_info_date">October 27, 2016</span>
-                                                                <span class="post_info_item post_info_counters">0 Comments</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /Isotope item -->
-                                            <!-- Isotope item -->
-                                            <div class="isotope_item isotope_item_colored isotope_item_colored_1 isotope_column_1">
-                                                <div class="post_item post_item_colored post_item_colored_1 odd last">
-                                                    <div class="post_content isotope_item_content">
-                                                        <div class="post_featured img">
-                                                            <a href="coming-soon.html">
-                                                                <img alt="Participate With Us"
-                                                                     src="images/participate-with-us-116x88.jpg">
-                                                            </a>
-                                                        </div>
-                                                        <div class="post_description clearfix">
-                                                            <h5 class="post_title">
-                                                                <a href="coming-soon.html">Participate With Us</a>
-                                                            </h5>
-                                                            <div class="post_info">
-                                                                <span class="post_info_item post_info_date">October 27, 2016</span>
-                                                                <span class="post_info_item post_info_counters">0 Comments</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column-1_3 sc_column_item sc_column_item_2 even">
-                                    <div class="sc_blogger layout_accordion template_accordion sc_accordion sc_blogger_horizontal">
-                                        <h2 class="sc_blogger_title sc_item_title">What We Believe</h2>
-                                        <!-- Accordion item -->
-                                        <div class="post_item sc_blogger_item sc_accordion_item">
-                                            <h5 class="post_title sc_title sc_blogger_title sc_accordion_title">
-                                                            <span class="sc_accordion_title_inner">
-                                                                <span class="sc_accordion_icon_wrap">
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
-                                                                </span>The bible is God Word
-                                                            </span>
-                                            </h5>
-                                            <div class="post_content sc_accordion_content">
-                                                <div class="post_descr">
-                                                    We believe and hold the bible as the complete and only divine
-                                                    revelation.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /Accordion item -->
-                                        <!-- Accordion item -->
-                                        <div class="post_item sc_blogger_item sc_accordion_item">
-                                            <h5 class="post_title sc_title sc_blogger_title sc_accordion_title">
-                                                            <span class="sc_accordion_title_inner">
-                                                                <span class="sc_accordion_icon_wrap">
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
-                                                                </span>The Holy Trinity
-                                                            </span>
-                                            </h5>
-                                            <div class="post_content sc_accordion_content">
-                                                <div class="post_descr">
-                                                    We strongly believe that God is eternally one and also the Father,
-                                                    Son and Holy Spirit; the three distinct but not separate.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /Accordion item -->
-                                        <!-- Accordion item -->
-                                        <div class="post_item sc_blogger_item sc_accordion_item">
-                                            <h5 class="post_title sc_title sc_blogger_title sc_accordion_title">
-                                                            <span class="sc_accordion_title_inner">
-                                                                <span class="sc_accordion_icon_wrap">
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
-                                                                </span>The birth and death of Jesus</span>
-                                            </h5>
-                                            <div class="post_content sc_accordion_content">
-                                                <div class="post_descr">
-                                                    We believe that Christ is both the complete God, the perfect man.
-                                                    Without abandoning his divinity, he was conceived in the womb of a
-                                                    human virgin, lived a human life on earth and died a vicarious and
-                                                    all inclusive death on the cross.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /Accordion item -->
-                                        <!-- Accordion item -->
-                                        <div class="post_item sc_blogger_item sc_accordion_item sc_blogger_item_last">
-                                            <h5 class="post_title sc_title sc_blogger_title sc_accordion_title">
-                                                            <span class="sc_accordion_title_inner">
-                                                                <span class="sc_accordion_icon_wrap">
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
-                                                                    <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
-                                                                </span>The Resurection and Second Coming of Jesus
-                                                            </span>
-                                            </h5>
-                                            <div class="post_content sc_accordion_content">
-                                                <div class="post_descr">
-                                                    We believe that after 3days, Jesus resurrected bodily and ascended
-                                                    to the third heaven. He is now in the millennium and in eternity.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /Accordion item -->
-                                    </div>
-                                </div>
-                                <div class="column-1_3 sc_column_item sc_column_item_3 odd">
-                                    <div class="sc_section hp2_sunday_gatherings_block">
-                                        <div class="sc_section_inner">
-                                            <div class="sc_section_overlay">
-                                                <div class="sc_section_content padding_on">
-                                                    <h3 class="sc_title sc_title_underline sc_align_center">Give
-                                                        /Partner</h3>
-                                                    <div class="gatherings_text_block">
-                                                        <strong>We invite anyone and everyone to attend our Sunday
-                                                            Gatherings</strong>
-                                                    </div>
-                                                    <div class="gatherings_text_block">Sundays at 7am-8:30am and
-                                                        9am-11:30am
-
-                                                    </div>
-                                                    <div class="gatherings_text_block margin_bottom_small">
-                                                        <a href="contacts.html">
-                                                            <strong>Learn More</strong>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!-- /News section ->
+
+                    </div>     
 
 
 
 
+        <div class="footer_wrap_inner widget_area_inner" id="focus">
+            <div class="content_wrap">
+                <div class="columns_wrap">
+
+                <div class="sc_blogger layout_plain template_plain sc_blogger_horizontal no_description">
+                                        
+                                        <h2 class="sc_blogger_title sc_item_title">Our Focus</h2>
+                                </div>
+                    <!-- Widget: Text -->
+                    <aside class="column-1_4 widget widget_text" id="hova" style="text-align: center; background-color:white; padding: 15px; height:500px">
+                        <div class="focusImage">
+                            <img alt="" src="images/inchrist.png">
+                        </div>
+                        <div class="focusTitle" style="margin-top: 20px; text-align: left;">
+                            <h5>IN CHRIST-OUR NEW POSITION</h5>
+                        </div>
+                        <div class="focusContent" style="text-align: left; padding-bottom: 22px;">
+                            <p>The phrase in Christ speaks of our new position in Christ. It reveals God’s up to date relationship with the believers. </p>
+                        </div>
+                        <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large"style="background-color: #1DC6DF; border:none;">Discover More</a>
+                    </aside><!-- /Widget: Text --><!-- Widget: Recent Posts --><aside class="column-1_4 widget widget_recent_posts" id="hova"   style="text-align: center; background-color:#F3F5F8; padding: 15px; height:500px">
+                    <div class="focusImage">
+                            <img alt="" src="images/1.png">
+                        </div>
+                        <div class="focusTitle" style="margin-top: 20px; text-align: left;">
+                            <h5>INSTITUTE OF FAITH AND FINANCES</h5>
+                        </div>
+                        <div class="focusContent" style="text-align: left; padding-bottom: 22px;">
+                            <p>Some of the greatest challenges of an average believer is living a life of faith and abundant supply from God. </p>
+                        </div>
+                        <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large" style="background-color: #1DC6DF; border:none;">Discover More</a>                                </aside><!-- /Widget: Recent Posts --><!-- Widget: Instagram --><aside class="column-1_4 widget null-instagram-feed" id="hova"  style="text-align: center; background-color:white; padding: 15px; height:500px">
+                    <div class="focusImage">
+                            <img alt="" src="images/healing.png">
+                        </div>
+                        <div class="focusTitle" style="margin-top: 20px; text-align: left; padding-bottom: 25px;">
+                            <h5>HEALING CENTER</h5>
+                        </div>
+                        <div class="focusContent" style="text-align: left; padding-bottom: 20px;">
+                            <p>Healing is a spiritual fact. The lord Jesus while on earth made healing his burden and took it as his business.</p>
+                        </div>
+                        <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large" style="background-color: #1DC6DF; border:none;">Discover More</a>                                </aside><!-- /Widget: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_4 widget widget_recent_comments" id="hova"  style="text-align: center; background-color:#F3F5F8; padding: 15px; height:500px">
+                    <div class="focusImage">
+                            <img alt="" src="images/spirit.png">
+                        </div>
+                        <div class="focusTitle" style="margin-top: 20px; text-align: left;">
+                            <h5>  WORKING IN THE SUPERNATURAL </h5>
+                        </div>
+                        <div class="focusContent" style="text-align: left; padding-bottom: 0px;">
+                            <p> Every born again Christian needs the fullness of the Holy Spirit. The baptism of the Holy Spirit is a promise to all believers in God’s word. </p>
+                        </div>
+                        <a class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large" style="background-color: #1DC6DF; border:none;">Discover More</a>                                </aside>
+                </div>
+            </div>
+        </div>
 
 
-<!-- Info section-->
+
+
+                    
+
+
+                    
+
+
+                    <!-- Info section-->
                     <div class="hp2_info_section">
                         <div class="content_wrap">
                             <div class="sc_blogger layout_related_3template_related margin_bottom_large sc_blogger_horizontal no_description">
                                 <div class="columns_wrap">
 
 
-                                    <div class="sc_blogger layout_plain template_plain sc_blogger_horizontal no_description">
-
+                                <div class="sc_blogger layout_plain template_plain sc_blogger_horizontal no_description">
+                                        
                                         <h2 class="sc_blogger_title sc_item_title">Resources / Media</h2>
-                                    </div>
+                                </div>
                                     <!-- Post item -->
                                     <div class="column-1_3 column_padding_bottom">
                                         <div class="post_item post_item_related post_item_1">
                                             <div class="post_content">
                                                 <div class="post_featured" style="background-color: #e80520">
                                                     <div class="post_thumb" data-title="Church Mission">
-
-                                                        <!-- <img alt="Church Mission" src="images/ipod.jpg"> -->
-
+                                                       
+                                                            <!-- <img alt="Church Mission" src="images/ipod.jpg"> -->
+                                                        
                                                     </div>
                                                     <div class="rcardFooter">
-                                                        <img alt="Church Mission" src="images/audio.png"
-                                                             class="footerIcon">
-                                                        <p class="rfooterBtn">Audio</p>
+                                                    <img alt="Church Mission" src="images/audio.png" class="footerIcon">
+                                                    <p class="rfooterBtn">Audio</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
+                                    </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
                                         <div class="post_item post_item_related post_item_2">
                                             <div class="post_content">
                                                 <div class="post_featured" style="background-color: #e80520">
                                                     <div class="post_thumb" data-title="Our Community">
-
-                                                        <!-- <img alt="Our Community" src="images/video.png" class="footerIcon"> -->
-
+                                                      
+                                                            <!-- <img alt="Our Community" src="images/video.png" class="footerIcon"> -->
+                                                        
                                                     </div>
                                                     <div class="rcardFooter">
-                                                        <img alt="Our Community" src="images/video.png"
-                                                             class="footerIcon">
-                                                        <p class="rfooterBtn">Video</p>
+                                                         <img alt="Our Community" src="images/video.png" class="footerIcon"> 
+                                                    <p class="rfooterBtn">Video</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!-- /Post item --><!-- Post item -->
-                                    <div class="column-1_3 column_padding_bottom">
+                                    </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
                                         <div class="post_item post_item_related post_item_3">
                                             <div class="post_content">
                                                 <div class="post_featured" style="background-color: #e80520">
                                                     <div class="post_thumb" data-title="Participate With Us">
-
-                                                        <!-- <img alt="Participate With Us" src="images/readings.png"> -->
-
+                                                       
+                                                            <!-- <img alt="Participate With Us" src="images/readings.png"> -->
+                                                        
                                                     </div>
-
+                                                    
                                                     <div class="rcardFooter">
-                                                        <img alt="Participate With Us" src="images/read.png"
-                                                             class="footerIcon">
-                                                        <p class="rfooterBtn">Readables</p>
+                                                    <img alt="Participate With Us" src="images/read.png" class="footerIcon">
+                                                    <p class="rfooterBtn">Readables</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+                             
                             </div>
                         </div>
                     </div>
                     <!-- /Info section-->
+                    
 
 
+                  
                     <!-- Latest Blog Section -->
                     <div class="hp2_latest_blog_section">
-                        <div class="content_wrap">
-                            <div class="columns_wrap sc_columns columns_sc_columns_count_2">
-                                <div class="column-1_2 sc_column_item"></div>
-                                <div class="column-1_2 sc_column_item">
+                       <div class="content_wrap">
+                           <div class="columns_wrap sc_columns columns_sc_columns_count_2">
+                               <div class="column-1_2 sc_column_item"></div>
+                               <div class="column-1_2 sc_column_item">
                                     <div class="sc_blogger layout_plain template_plain sc_blogger_horizontal no_description">
                                         <h6 class="sc_blogger_subtitle sc_item_subtitle">Latest Blog</h6>
                                         <h2 class="sc_blogger_title sc_item_title">Blogs and news</h2>
@@ -1015,14 +665,12 @@
                                         </div>
                                         <!-- /Post item -->
                                         <div class="sc_blogger_button sc_item_button">
-                                            <a href="coming-soon.html"
-                                               class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ
-                                                MORE</a>
+                                            <a href="coming-soon.html" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">READ MORE</a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                               </div>
+                           </div>
+                       </div>
                     </div>
                     <!-- /Latest Blog Section -->
                     <!-- Join Us section -->
@@ -1030,25 +678,19 @@
                         <div class="content_wrap">
                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_4 column_resizer">
                                 <div class="column-2_4 sc_column_item sc_column_item_1 odd first span_2">
-                                    <h2 class="hp1_join_us_info custom_heading_1">Locate one of our Rhythm 5 Fellowships
-                                        in your campus or city today</h2>
-                                </div>
-                                <div class="column-1_4 sc_column_item sc_column_item_3 odd after_span_2">
-                                    <div class="sc_section join_us_custom_block_1">
-                                        <div class="sc_section_inner">
-                                            <h6 class="sc_title sc_title_regular margin_top_null tpl_light margin_bottom_2">
-                                                Email Us</h6>
-                                            <h4 class="sc_title sc_title_regular underline margin_top_null margin_bottom_null tpl_light">
-                                                <a class="tpl_light" href="coming-soon.html"><span class="__cf_email__">campusministry@rhythm5fellowship.com</span></a>
-                                            </h4>
-                                        </div>
+                                    <h2 class="hp1_join_us_info custom_heading_1">Locate one of our Rhythm 5 Fellowships in your campus or city today</h2>
+                                </div><div class="column-1_4 sc_column_item sc_column_item_3 odd after_span_2">
+                                <div class="sc_section join_us_custom_block_1">
+                                    <div class="sc_section_inner">
+                                        <h6 class="sc_title sc_title_regular margin_top_null tpl_light margin_bottom_2">Email Us</h6>
+                                        <h4 class="sc_title sc_title_regular underline margin_top_null margin_bottom_null tpl_light">
+                                            <a class="tpl_light" href="coming-soon.html"><span class="__cf_email__">campusministry@rhythm5fellowship.com</span></a>
+                                        </h4>
                                     </div>
                                 </div>
-                                <div class="column-1_4 sc_column_item sc_column_item_4 even text_align_center margin_top_0_5em">
-                                    <a href="coming-soon.html"
-                                       class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large margin_left_0_0833">JOIN
-                                        FELLOWSHIP</a>
-                                </div>
+                            </div><div class="column-1_4 sc_column_item sc_column_item_4 even text_align_center margin_top_0_5em">
+                                <a href="coming-soon.html" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large margin_left_0_0833">JOIN FELLOWSHIP</a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -1057,6 +699,107 @@
             </article>
         </div>
     </div>
+    <!-- /Page Content Wrap -->
+
+
+
+
+
+    <!-- Footer -->
+    <div class="hp2_info_section" style="padding-top: 3em; padding-bottom: 0em; margin-top: 20px;">
+        <div class="content_wrap">
+            <div style="margin-bottom: 0em !important; padding-bottom: 0" class="sc_blogger layout_related_3template_related margin_bottom_large sc_blogger_horizontal no_description">
+                <div class="columns_wrap">
+
+                    <!-- Post item -->
+                    <div class="column-1_3 column_padding_bottom">
+                        <div class="post_item post_item_related post_item_1">
+                            <div class="post_content">
+                                <div class="post_featured">
+                                    <div class="post_thumb" data-title="Church Mission">
+                                        
+                                            <!-- <img alt="Church Mission" src="images/ipod.jpg"> -->
+                                        
+                                    </div>
+                                    <div class="rcardFooter">
+                                             <div class="sc_socials_item">
+                                                    <a href="coming-soon.html" style="color:#fff" target="_blank" class="social_icons social_twitter">
+                                                        <span class="icon-twitter" style="font-size: 32px"></span>
+                                                    </a>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
+                        <div class="post_item post_item_related post_item_2">
+                            <div class="post_content">
+                                <div class="post_featured">
+                                    <div class="post_thumb" data-title="Our Community">
+                                    
+                                            <!-- <img alt="Our Community" src="images/video.png" class="footerIcon"> -->
+                                        
+                                    </div>
+                                    <div class="rcardFooter">
+                                        <div class="sc_socials_item">
+                                            <a href="coming-soon.html" style="color:#fff" target="_blank" class="social_icons social_facebook">
+                                                <span class="icon-facebook" style="font-size: 32px"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /Post item --><!-- Post item --><div class="column-1_3 column_padding_bottom">
+                        <div class="post_item post_item_related post_item_3">
+                            <div class="post_content">
+                                <div class="post_featured">
+                                    <div class="post_thumb" data-title="Participate With Us">
+                                        
+                                            <!-- <img alt="Participate With Us" src="images/readings.png"> -->
+                                        
+                                    </div>
+                                    
+                                    <div class="rcardFooter">
+                                        <div class="sc_socials_item">
+                                            <a href="coming-soon.html" style="color:#fff" target="_blank" class="social_icons social_facebook">
+                                                <span class="icon-instagramm" style="font-size: 32px"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        <!-- /Info section-->
+  
+    <!-- Copyright -->
+    <div class="copyright_wrap copyright_style_text scheme_original">
+        <div class="copyright_wrap_inner">
+            <div class="content_wrap" style="display: flex;  flex-flow: wrap;">
+                <div style="flex: 0 0 50%">  
+                    <div class="copyright_text" style="margin-top: 30px; float: left;">InovateWeb© 2017 All Rights Reserved</div>
+                </div>
+                <div style="flex: 0 0 50%">
+                     <img src="images/logo2.png" style="float: right; width: 80px;"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- <footer class="footer_wrap widget_area scheme_original" style="display: flex;  flex-flow: wrap;"> </footer> -->
+    <!-- /Footer -->
+    <!-- /Copyright -->
+</div>
+<!-- /Page wrap -->
+</div>
+<!-- /Body wrap -->
+
 <?php $__env->stopSection(); ?>
 
 

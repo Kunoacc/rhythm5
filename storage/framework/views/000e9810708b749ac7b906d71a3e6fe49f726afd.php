@@ -1,8 +1,6 @@
-@extends('shared.main.main')
+<?php $__env->startSection('body-class', 'page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_show sidebar_right'); ?>
 
-@section('body-class', 'page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_show sidebar_right')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Breadcrumbs -->
     <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
         <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
@@ -406,4 +404,5 @@
         </div>
     </div>
     <!-- /Page Content Wrap -->
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('shared.main.main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
