@@ -17,6 +17,20 @@
     <!-- /Breadcrumbs -->
     <!-- Page Content Wrap -->
     <div class="page_content_wrap page_paddings_no">
+        <div class="content">
+            <p class="form-row form-row-wide validate-required" id="billing_first_name_field">
+                <label for="billing_first_name" class="">First Name
+                    <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text" name="billing_first_name" id="billing_first_name" placeholder="" value="">
+            </p>
+            <p class="form-row form-row validate-required" id="billing_first_name_field">
+                <label for="billing_first_name" class="">First Name
+                    <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="">
+            </p>
+        </div>
         <!--  <script src="https://js.paystack.co/v1/inline.js"></script>
               <div id="paystackEmbedContainer"></div>
                   <script>
@@ -31,8 +45,6 @@
                           },
                       });
                   </script>-->
-
-        <iframe src="https://paystack.com/pay/rhythm" width="100%" height="auto"></iframe>
 
         <!-- Footer -->
         <footer class="footer_wrap widget_area scheme_original">
