@@ -82,7 +82,7 @@
                             <!-- /Focus -->
                             <!-- Events -->
                             <li class="menu-item">
-                                <a href="{{url('events')}}">Events</a>
+                                <a href="{{url('event')}}">Events</a>
                             </li>
                             <!-- /Events -->
                             <!-- Resources -->
@@ -138,8 +138,8 @@
                             </li>
                             <!-- /Give -->
                             <!-- Store -->
-                            <li class="donate-btn menu-item menu-item menu-item-has-children">
-                                <a href="{{url('store')}}">Store</a>
+                            <li class="donate-btn menu-item menu-item">
+                                <a href="{{url('about')}}">About</a>
                             </li>
                             <!-- /Store -->
                         </ul>
@@ -222,7 +222,7 @@
                     <!-- /Focus -->
                     <!-- Events -->
                     <li class="menu-item">
-                        <a href="{{url("events")}}">Events</a>
+                        <a href="{{url("event")}}">Events</a>
                     </li>
                     <!-- /Events -->
                     <!-- Resources -->
@@ -277,8 +277,8 @@
                     </li>
                     <!-- /Give -->
                     <!-- Store -->
-                    <li class="donate-btn menu-item menu-item menu-item-has-children">
-                        <a href="{{url("store")}}">Store</a>
+                    <li class="donate-btn menu-item menu-item">
+                        <a href="{{url("about")}}">About</a>
                     </li>
                     <!-- /Store -->
                 </ul>

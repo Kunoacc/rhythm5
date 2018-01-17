@@ -6,7 +6,7 @@
     <?php echo $__env->yieldContent('head'); ?>
 </head>
 
-<body class="<?php echo $__env->yieldContent('body-class'); ?>">
+<body class="<?php echo $__env->yieldContent('body-class', 'page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_over sidebar_hide'); ?>">
     <a id="toc_home" class="sc_anchor" title="Home" data-description="<i>Return to Home</i> - <br>navigate to home page of the site" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
     <a id="toc_top" class="sc_anchor" title="To Top" data-description="<i>Back to top</i> - <br>scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
     <!-- Body wrap -->
@@ -18,6 +18,8 @@
             <?php echo $__env->make('shared.main.navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
             <?php echo $__env->yieldContent('content'); ?>
+
+            <?php echo $__env->make('shared.main.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         </div>
 

@@ -1,6 +1,5 @@
 @extends('shared.main.main')
 
-@section('body-class', 'archive body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide events-list events-archive tribe-events-page-template')
 @section('content')
     <div class="top_panel_title top_panel_style_3  title_present breadcrumbs_present scheme_original">
         <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg4">
@@ -17,7 +16,7 @@
         </div>
     </div>
 
-    <div class="page_content_wrap page_paddings_no">
+    <div class="page_content_wrap">
         <div class="content_wrap">
             <div class="content">
                 <article class="itemscope post_item post_item_single post_featured_default post_format_standard post-1314 sermons type-sermons status-publish has-post-thumbnail hentry sermons_group-missions sermons_group-popular">

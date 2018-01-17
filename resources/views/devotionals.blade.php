@@ -1,7 +1,5 @@
 @extends('shared.main.main')
 
-@section('body-class', 'page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_show sidebar_right')
-
 @section('content')
     <!-- Breadcrumbs -->
     <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
@@ -18,7 +16,7 @@
     </div>
     <!-- /Breadcrumbs -->
     <!-- Page Content Wrap -->
-    <div class="page_content_wrap page_paddings_no">
+    <div class="page_content_wrap">
         <div class="content_wrap">
             <!-- Content -->
             <article class="post_item post_item_sermons odd sermons">
