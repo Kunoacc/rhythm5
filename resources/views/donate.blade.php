@@ -1,8 +1,7 @@
 @extends("shared.main.main")
 
 @section("head")
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.3.5/sweetalert2.min.css" />
 @endsection
 
@@ -256,8 +255,12 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.3.5/sweetalert2.min.js"></script>
             <script>
                 function payWithPaystack() {
-                    swal('Working...', 'Processing your donation', 'info');
-                    swal.disableButtons(),
+                    swal({
+                        title: "Working...",
+                        type: "info",
+                        text: "your donation is processing",
+                        showConfirmButton: true
+                    });
                     swal.showLoading();
                     let handler = PaystackPop.setup({
                         key: 'pk_test_40c23cf57b58c8764dfc181b6fb5690616076967',
@@ -291,7 +294,9 @@
                                     'reference': response.reference
                                 },
                                 success: (data) => {
-                                    console.log(data)
+                                    console.log(data);
+                                    swal.close();
+                                    swal('You\'ve got mail!', 'Thanks for donating!', 'success');
                                 },
                                 error: (error) => {
                                     console.log(error)

@@ -30,7 +30,6 @@
                                     </thead>
                                     <tbody>
                                     <?php $__currentLoopData = $donation; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                        <?php ($index = 1); ?>
                                         <tr>
                                             <td><?php echo e($item->id); ?></td>
                                             <td><?php echo e($item->name); ?></td>
@@ -38,7 +37,6 @@
                                             <td><?php echo e($item->email); ?></td>
                                             <td><?php echo e($item->reference); ?></td>
                                         </tr>
-                                        <?php ($index = $index + 1); ?>
                                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                     </tbody>
                                 </table>
