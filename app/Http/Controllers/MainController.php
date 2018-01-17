@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Donations;
+use App\Notifications\successfulDonation;
 use Illuminate\Http\Request;
 use Yabacon\Paystack;
 
@@ -24,7 +25,8 @@ class MainController extends Controller
             $donation->name = $customer->first_name . " " . $customer->last_name;
             $donation->email = $customer->email;
             $donation->save();
-            return redirect()->route('donation')->with('success', 'congratulations on your donation');
+            $donation->notify(new successfulDonation($donation));
+            return response()->json($donation);
         }
 
      return redirect()->route('donation')->with('error', 'Whoops');

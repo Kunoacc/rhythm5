@@ -2,6 +2,8 @@
 <html lang="en" class="scheme_original">
 <head>
     @include('shared.main.head')
+
+    @yield('head')
 </head>
 
 <body class="@yield('body-class')">

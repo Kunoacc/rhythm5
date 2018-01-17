@@ -18,7 +18,7 @@ Route::view('/about', 'about')->name('about');
 Route::view('/donate', 'donate')->name('donation');
 Route::view('/events', 'events')->name('events');
 Route::view('/blog', 'events')->name('blog');
-Route::get('/donate/success', 'MainController@donate');
+Route::post('/donate/success', 'MainController@donate');
 Route::view('/devotional', 'devotionals')->name('devotional');
 Route::get('/devotional/{day}', 'PagesController@devotionalDays')->name('devotionalDays');
 Route::post('/logout', 'AdminController@logout')->name('logout')->middleware('auth');

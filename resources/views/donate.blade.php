@@ -1,5 +1,11 @@
 @extends("shared.main.main")
 
+@section("head")
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.3.5/sweetalert2.min.css" />
+@endsection
+
 @section("body-class", "")
 
 @section("content")
@@ -20,33 +26,71 @@
     <!-- Page Content Wrap -->
     <div class="page_content_wrap page_paddings_no">
         <div class="content">
-            <p class="form-row form-row-wide validate-required" id="billing_first_name_field">
-                <label for="billing_first_name" class="">First Name
-                    <abbr class="required" title="required">*</abbr>
-                </label>
-                <input type="text" class="input-text" name="billing_first_name" id="billing_first_name" placeholder="" value="">
-            </p>
-            <p class="form-row form-row validate-required" id="billing_first_name_field">
-                <label for="billing_first_name" class="">First Name
-                    <abbr class="required" title="required">*</abbr>
-                </label>
-                <input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="">
-            </p>
+            <div class="container">
+                <script src="https://js.paystack.co/v1/inline.js"></script>
+                <div class="col-12 card card-body">
+                    <h3 class="text-center">Please fill in the information</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="first_name"></label>
+                                <input type="text"
+                                       class="form-control" name="first_name" id="first_name" placeholder="Name">
+                                <small id="Name" class="form-text text-muted">Enter First Name Here</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="last_name"></label>
+                                <input type="text"
+                                       class="form-control" name="last_name" id="last_name" aria-describedby="helpId"
+                                       placeholder="Last Name">
+                                <small id="helpId" class="form-text text-muted">Enter Last Name Here</small>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="email"></label>
+                                        <input type="email"
+                                               class="form-control" name="email" id="email" aria-describedby="helpId"
+                                               placeholder="Email">
+                                        <small id="helpId" class="form-text text-muted">Enter email here</small>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="number"></label>
+                                        <input type="tel"
+                                               class="form-control" name="number" id="number" aria-describedby="helpId"
+                                               placeholder="Phone Number">
+                                        <small id="helpId" class="form-text text-muted">Enter Number Here</small>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="amount"></label>
+                                        <input type="number"
+                                               class="form-control" name="amount" id="amount" aria-describedby="helpId"
+                                               placeholder="Amount">
+                                        <small id="helpId" class="form-text text-muted">Enter donation amount</small>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto text-center">
+                                    <a href="javascript:" id="give"
+                                       class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_4 sc_button_size_large give_now_btn"
+                                       onclick="payWithPaystack()">GIVE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
         </div>
-        <!--  <script src="https://js.paystack.co/v1/inline.js"></script>
-              <div id="paystackEmbedContainer"></div>
-                  <script>
-                      PaystackPop.setup({
-                      key: 'pk_test_f49f4e33b47948bdb39037b6c99325de636e6b85',
-                      email: 'give@rhythm5fellowship.com',
-                      amount: 5000,
-                      container: 'paystackEmbedContainer',
 
-                      callback: function(response){
-                              alert('successfully subscribed. transaction ref is ' + response.reference);
-                          },
-                      });
-                  </script>-->
 
         <!-- Footer -->
         <footer class="footer_wrap widget_area scheme_original">
@@ -205,7 +249,60 @@
                 </div>
             </div>
         </div>
-@endsection
+        @endsection
 
-@section("scripts")
+        @section("scripts")
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.3.5/sweetalert2.min.js"></script>
+            <script>
+                function payWithPaystack() {
+                    swal('Working...', 'Processing your donation', 'info');
+                    swal.disableButtons(),
+                    swal.showLoading();
+                    let handler = PaystackPop.setup({
+                        key: 'pk_test_40c23cf57b58c8764dfc181b6fb5690616076967',
+                        email: $('#email').val(),
+                        amount: $('#amount').val() * 100,
+                        ref: '' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+                        metadata: {
+                            custom_fields: [
+                                {
+                                    display_name: "Mobile Number",
+                                    variable_name: "mobile_number",
+                                    value: $('#number').val()
+                                }, {
+                                    display_name: "First Name",
+                                    variable_name: "first_name",
+                                    value: $('#first_name').val()
+                                }, {
+                                    display_name: "Last Name",
+                                    variable_name: "last_name",
+                                    value: $('#last_name').val()
+                                },
+
+                            ]
+                        },
+                        callback: function (response) {
+                            $.ajax({
+                                type: 'POST',
+                                url: '{{url('donate/success')}}',
+                                data: {
+                                    '_token': '{{csrf_token()}}',
+                                    'reference': response.reference
+                                },
+                                success: (data) => {
+                                    console.log(data)
+                                },
+                                error: (error) => {
+                                    console.log(error)
+                                }
+                            })
+                        },
+                        onClose: function () {
+                            alert('window closed');
+                        }
+                    });
+                    handler.openIframe();
+                }
+            </script>
 @endsection
