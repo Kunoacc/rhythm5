@@ -82,7 +82,7 @@
                             <!-- /Focus -->
                             <!-- Events -->
                             <li class="menu-item">
-                                <a href="<?php echo e(url('event')); ?>">Events</a>
+                                <a href="<?php echo e(route('event')); ?>">Events</a>
                             </li>
                             <!-- /Events -->
                             <!-- Resources -->

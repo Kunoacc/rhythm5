@@ -93,7 +93,6 @@
         @endsection
 
         @section("scripts")
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.3.5/sweetalert2.min.js"></script>
             <script>
                 function payWithPaystack() {

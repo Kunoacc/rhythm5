@@ -713,4 +713,12 @@
 
 
 @section('scripts')
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/jquery.themepunch.revolution.min.js')}}"></script>
+
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/revolution.extension.slideanims.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/revolution.extension.layeranimation.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/revolution.extension.kenburn.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/revolution.extension.navigation.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/vendor/revslider/revolution.extension.parallax.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/revslider-homepage-2.min.js')}}"></script>
 @endsection

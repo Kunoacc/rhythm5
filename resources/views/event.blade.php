@@ -1,6 +1,6 @@
 @extends('shared.main.main')
 
-@section('body-class', 'archive body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide events-list events-archive tribe-events-page-template')
+@section('body-class', 'events-list events-archive tribe-events-page-template')
 
 @section('content')
     <!-- Breadcrumbs -->

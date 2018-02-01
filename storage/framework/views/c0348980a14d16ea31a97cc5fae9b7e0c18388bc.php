@@ -1,12 +1,6 @@
-@extends('shared.main.main')
+<?php $__env->startSection('body-class', 'events-list events-archive tribe-events-page-template'); ?>
 
-@section('head')
-    <link rel="stylesheet" href="{{asset('css/plugin.tribe-events.min.css')}}">
-@endsection
-
-@section('body-class', 'events-list events-archive tribe-events-page-template')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Breadcrumbs -->
     <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
         <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
@@ -31,8 +25,51 @@
                 <section class="post tribe_events_wrapper">
                     <article class="post_content">
                         <div id="tribe-events-pg-template">
-                            <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-category="">
+                            <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="0" data-category="">
+                                <div class="tribe-events-before-html"></div>
+                                <span class="tribe-events-ajax-loading">
+                                                <img class="tribe-events-spinner-medium" src="js/vendor/the-events-calendar/images/tribe-loading.gif" alt="Loading Events" />
+                                            </span>
                                 <div id="tribe-events-content-wrapper" class="tribe-clearfix">
+                                    <input type="hidden" id="tribe-events-list-hash" value="">
+                                    <!-- Tribe Bar -->
+                                    <div id="tribe-events-bar">
+                                        <form id="tribe-bar-form" class="tribe-clearfix" name="tribe-bar-form" method="post" action="#">
+                                            <!-- Mobile Filters Toggle -->
+                                            <div id="tribe-bar-collapse-toggle">
+                                                Find Events<span class="tribe-bar-toggle-arrow"></span>
+                                            </div>
+                                            <!-- Views -->
+                                            <div id="tribe-bar-views">
+                                                <div class="tribe-bar-views-inner tribe-clearfix">
+                                                    <h3 class="tribe-events-visuallyhidden">Event Views Navigation</h3>
+                                                    <label>View As</label>
+                                                    <select class="tribe-bar-views-select tribe-no-param" name="tribe-bar-view">
+                                                        <option selected value="#" data-view="list">
+                                                            List </option>
+                                                        <option tribe-inactive value="#" data-view="month">
+                                                            Month </option>
+                                                        <option tribe-inactive value="#" data-view="day">
+                                                            Day </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="tribe-bar-filters">
+                                                <div class="tribe-bar-filters-inner tribe-clearfix">
+                                                    <div class="tribe-bar-date-filter">
+                                                        <label class="label-tribe-bar-date" for="tribe-bar-date">Events From</label>
+                                                        <input type="text" name="tribe-bar-date" class="position_relative" id="tribe-bar-date" value="" placeholder="Date">
+                                                        <input type="hidden" name="tribe-bar-date-day" id="tribe-bar-date-day" class="tribe-no-param" value=""> </div>
+                                                    <div class="tribe-bar-search-filter">
+                                                        <label class="label-tribe-bar-search" for="tribe-bar-search">Search</label>
+                                                        <input type="text" name="tribe-bar-search" id="tribe-bar-search" value="" placeholder="Search"> </div>
+                                                    <div class="tribe-bar-submit">
+                                                        <input class="tribe-events-button tribe-no-param" type="submit" name="submit-bar" value="Find Events" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                     <!-- Main Events Content -->
                                     <div id="tribe-events-content" class="tribe-events-list">
                                         <!-- List Title -->
@@ -367,7 +404,5 @@
         </div>
     </div>
     <!-- /Page Content Wrap -->
-@endsection
-
-@section('scripts')
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('shared.main.main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

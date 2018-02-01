@@ -16,7 +16,7 @@ Route::view('/', 'index')->name('index');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/donate', 'donate')->name('donation');
-Route::view('/events', 'event')->name('event');
+Route::view('/events', 'events')->name('event');
 Route::view('/blog', 'events')->name('blog');
 Route::post('/donate/success', 'MainController@donate');
 Route::view('/devotional', 'devotionals')->name('devotional');

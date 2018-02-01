@@ -82,7 +82,7 @@
                             <!-- /Focus -->
                             <!-- Events -->
                             <li class="menu-item">
-                                <a href="{{url('event')}}">Events</a>
+                                <a href="{{route('event')}}">Events</a>
                             </li>
                             <!-- /Events -->
                             <!-- Resources -->

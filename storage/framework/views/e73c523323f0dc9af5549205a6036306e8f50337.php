@@ -1,5 +1,3 @@
-<?php $__env->startSection('body-class', 'page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_over sidebar_hide'); ?>
-
 <?php $__env->startSection('content'); ?>
     <!-- Revolution Slider section -->
     <section class="slider_wrap slider_fullscreen slider_engine_revo slider_alias_newlife-church-home-2">
@@ -713,5 +711,13 @@
 
 
 <?php $__env->startSection('scripts'); ?>
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/jquery.themepunch.revolution.min.js')); ?>"></script>
+
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/revolution.extension.slideanims.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/revolution.extension.layeranimation.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/revolution.extension.kenburn.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/revolution.extension.navigation.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/vendor/revslider/revolution.extension.parallax.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/revslider-homepage-2.min.js')); ?>"></script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('shared.main.main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
