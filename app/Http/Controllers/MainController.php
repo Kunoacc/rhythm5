@@ -31,9 +31,5 @@ class MainController extends Controller
 
      return redirect()->route('donation')->with('error', 'Whoops');
     }
-
-    public function sendMail($email){
-
-    }
     //
 }

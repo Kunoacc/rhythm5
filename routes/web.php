@@ -17,6 +17,7 @@ Route::view('/contact', 'contact')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/donate', 'donate')->name('donation');
 Route::view('/events', 'events')->name('event');
+Route::get('/event/{title}', 'PagesController@singleEvent')->name('singleEvent');
 Route::view('/blog', 'events')->name('blog');
 Route::post('/donate/success', 'MainController@donate');
 Route::view('/devotional', 'devotionals')->name('devotional');
@@ -37,5 +38,8 @@ Route::group(['prefix' => 'admin'], function (){
         Route::view('/settings', 'admin.settings')->name('adminSettings');
         Route::post('/devotional/add', 'AdminController@addDevotional')->name('addDevotional');
         Route::post('/devotional/remove', 'AdminController@removeDevotional')->name('removeDevotional');
+        Route::post('/event/add', 'AdminController@createEvent')->name('createEvent');
+        Route::post('/event/delete', 'AdminController@deleteEvent')->name('deleteEvent');
+        Route::post('/event/edit/{id}', 'AdminController@editEvent')->name('editEvent');
     });
 });
