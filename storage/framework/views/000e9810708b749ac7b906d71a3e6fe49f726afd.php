@@ -81,7 +81,7 @@
                                                         </div>
                                                         <!-- Event Image -->
                                                         <div class="tribe-events-event-image">
-                                                            <a href="event-single.html">
+                                                            <a href="<?php echo e(route('singleEvent', str_replace(' ', '-', $event->name))); ?>">
                                                                 <img src="https://docs.google.com/uc?id=<?php echo e($event->image_path); ?>" alt="" />
                                                             </a>
                                                         </div>

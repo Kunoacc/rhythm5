@@ -64,6 +64,7 @@ class AdminController extends Controller
             $image = $request->file('image');
             $name = $image->getClientOriginalName();
             $dir = '/';
+            Storage::cloud()->put('/' . $name, file_get_contents($image));
             $recursive = false;
             $contents = collect(Storage::cloud()->listContents($dir, $recursive));
             $file = $contents
